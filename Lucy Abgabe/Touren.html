@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unsere Touren – Discover South Africa</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    section {
+      padding: 2rem 0;
+    }
+
+    header {
+      padding: 3rem 0;
+    }
+
+    .card {
+      margin-bottom: 1.5rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2rem;
+      background-color: var(--card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow-light);
+      line-height: 1.7;
+    }
+
+    .card img {
+      width: 60%;
+      max-width: 400px;
+      display: block;
+      margin: 0 auto 1.5rem;
+      border-radius: var(--border-radius);
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--main-color);
+    }
+
+    .card p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    .button {
+      margin-top: 1rem;
+      display: inline-block;
+    }
+
+    .container h2 {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .card img {
+        width: 100%;
+      }
+
+      .card {
+        padding: 1.5rem;
+      }
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+    }
+
+    .nav-container h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: var(--main-color);
+    }
+
+    .nav-container a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: 500;
+    }
+
+    .nav-container a:hover {
+      color: var(--main-color);
+    }
+
+    .nav-container .active {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-container">
+      <h2>Discover South Africa</h2>
+      <div>
+        <a href="index.html">Startseite</a>
+        <a href="touren.html" class="active">Touren</a>
+        <a href="oeffnungszeiten.html">Öffnungszeiten</a>
+        <a href="team.html">Team</a>
+        <a href="philosophie.html">Philosophie</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Unsere Touren</h1>
+      <p>Für jeden Geschmack das Richtige</p>
+    </div>
+  </header>
+
+  <!-- Tourenübersicht -->
+  <section>
+    <div class="container">
+
+      <!-- Tour 1 -->
+      <div class="card">
+        <img src="img/safari-kruger.jpg" alt="Safari im Kruger-Nationalpark">
+        <h3>🦁 Safari-Abenteuer im Kruger-Nationalpark</h3>
+        <p>Erlebe die „Big Five“ hautnah auf einer geführten Safari durch eines der bekanntesten Wildschutzgebiete Afrikas.</p>
+        <p><strong>Dauer:</strong> 3–5 Tage<br><strong>Schwierigkeit:</strong> Leicht</p>
+        <a href="safari-kruger.html" class="button">➡ Details ansehen</a>
+      </div>
+
+      <!-- Tour 2 -->
+      <div class="card">
+        <img src="img/weintour.jpg" alt="Weintour in Stellenbosch">
+        <h3>🍇 Weintour in Stellenbosch</h3>
+        <p>Genieße eine Tagestour zu den besten Weingütern des Landes inklusive Verkostung und Picknick.</p>
+        <p><strong>Dauer:</strong> 1 Tag<br><strong>Schwierigkeit:</strong> Sehr leicht</p>
+        <a href="stellenbosch.html" class="button">➡ Details ansehen</a>
+      </div>
+
+      <!-- Tour 3 -->
+      <div class="card">
+        <img src="img/garden-route.jpg" alt="Garden Route Roadtrip">
+        <h3>🌊 Garden Route Roadtrip</h3>
+        <p>Fahre entlang der berühmten Garden Route und entdecke die Küstenwunder Südafrikas mit Wanderungen, Höhlenbesuchen und Walbeobachtungen.</p>
+        <p><strong>Dauer:</strong> 6 Tage<br><strong>Schwierigkeit:</strong> Mittel</p>
+        <a href="garden-route.html" class="button">➡ Details ansehen</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Discover South Africa. Alle Rechte vorbehalten.</p>
+  </footer>
+
+</body>
+</html>
